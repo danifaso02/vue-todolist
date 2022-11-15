@@ -1,0 +1,42 @@
+/*-----------------
+RESET
+-----------------*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*-----------------
+COMMON
+-----------------*/
+body{
+    background-color: black;
+}
+
+/*-----------------
+CONTAINER
+-----------------*/
+
+.container{
+    width: 43.75rem;
+    min-height: 31.25rem;
+    background-color: #fff;
+    margin: auto;
+}
+
+img{
+    width: 100%;
+}
+
+input{
+    padding: .9375rem 1.25rem;
+}
+
+button{
+    padding: .9375rem 1.25rem;
+    border-radius: .625rem;
+}
+
+.submitting{
+    text-align: center;
+}
